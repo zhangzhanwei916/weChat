@@ -13,6 +13,7 @@
 		37E519A61C92F22D003369F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E519A41C92F22D003369F6 /* Main.storyboard */; };
 		37E519A81C92F22D003369F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E519A71C92F22D003369F6 /* Assets.xcassets */; };
 		37E519AB1C92F22D003369F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E519A91C92F22D003369F6 /* LaunchScreen.storyboard */; };
+		37E519B41C92F989003369F6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E519B31C92F989003369F6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		37E519A71C92F22D003369F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37E519AA1C92F22D003369F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37E519AC1C92F22D003369F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E519B21C92F989003369F6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		37E519B31C92F989003369F6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				37E5199F1C92F22D003369F6 /* AppDelegate.m */,
 				37E519A11C92F22D003369F6 /* ViewController.h */,
 				37E519A21C92F22D003369F6 /* ViewController.m */,
+				37E519B21C92F989003369F6 /* Person.h */,
+				37E519B31C92F989003369F6 /* Person.m */,
 				37E519A41C92F22D003369F6 /* Main.storyboard */,
 				37E519A71C92F22D003369F6 /* Assets.xcassets */,
 				37E519A91C92F22D003369F6 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				37E519A31C92F22D003369F6 /* ViewController.m in Sources */,
 				37E519A01C92F22D003369F6 /* AppDelegate.m in Sources */,
+				37E519B41C92F989003369F6 /* Person.m in Sources */,
 				37E5199D1C92F22D003369F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				37E519B11C92F22D003369F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
